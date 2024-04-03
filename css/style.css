@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+section {
+  padding: 100px 5%;
+}
