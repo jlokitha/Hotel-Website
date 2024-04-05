@@ -10,7 +10,8 @@
 }
 
 .about-us {
-  padding: 0 15%;
+  padding: 10px 15%;
+  background-color: rgb(231, 231, 231);
 }
 
 .section-title {
@@ -31,4 +32,46 @@
   width: 50%;
   height: 45%;
   background-color: black;
+}
+
+.amenities-container {
+  background-color: rgb(231, 231, 231);
+}
+
+.image-section {
+  width: 100%;
+
+  padding-top: 0;
+  padding-bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-container {
+  padding: 40px 0px;
+
+  display: flex;
+  align-items: center;
+
+  overflow-x: scroll;
+
+  border: 2px solid grey;
+  border-radius: 15px;
+}
+
+#image-container::-webkit-scrollbar {
+  display: none;
+}
+
+#image-container img {
+  max-width: 30%;
+  object-fit: cover;
+
+  margin: 0 40px;
+
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }

@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  justify-content: start;
+}
+
+.image-row {
+  margin: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}

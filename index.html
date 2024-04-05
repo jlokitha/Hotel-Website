@@ -49,9 +49,9 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link active fs-5 me-3"
+                  class="nav-link fs-5 me-3"
                   aria-current="page"
-                  href="#"
+                  href="/index.html"
                   >Home</a
                 >
               </li>
@@ -69,7 +69,11 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="/pages/page-gallery.html"
+                  target="_blank"
                   >Gallery</a
                 >
               </li>
@@ -135,75 +139,45 @@
       </div>
     </section>
 
-    <section class="image-container">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide col-12 justify-content-center align-items-center"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="/assets/image/transparent.png"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/image/transparent.png"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/image/transparent.png"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <section class="image-section">
+      <h1 class="fst-italic fw-bold text-primary m-5 section-title text-center">
+        Shall we show you around ?
+      </h1>
+
+      <div id="image-container">
+        <img src="/assets/image/photo-16.jpg" alt="" />
+
+        <img src="/assets/image/photo-38.jpg" alt="" />
+
+        <img src="/assets/image/photo-40.jpg" alt="" />
+
+        <img src="/assets/image/photo-19.jpg" alt="" />
+
+        <img src="/assets/image/photo-12.jpg" alt="" />
+
+        <img src="/assets/image/photo-41.jpg" alt="" />
+
+        <img src="/assets/image/photo-30.jpg" alt="" />
+
+        <img src="/assets/image/photo-53.jpg" alt="" />
+
+        <img src="/assets/image/photo-13.jpg" alt="" />
+
+        <img src="/assets/image/photo-50.jpg" alt="" />
+
+        <img src="/assets/image/photo-3.jpg" alt="" />
+
+        <img src="/assets/image/photo-26.jpg" alt="" />
       </div>
+
+      <a href="/pages/page-gallery.html" target="_blank">
+        <button
+          type="button"
+          class="btn btn-outline-primary fs-4 fw-bold border-3 m-4"
+        >
+          Explore more
+        </button>
+      </a>
     </section>
 
     <section class="amenities-container">
