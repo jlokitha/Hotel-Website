@@ -17,3 +17,39 @@ section {
   padding: 100px 5%;
 }
 
+footer {
+  background: white;
+  color: black;
+  max-width: 100%;
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h1 {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container i {
+  font-size: 3rem;
+  margin-left: 20px;
+}
+
+footer img {
+  width: 6%;
+  margin: 20px 20px;
+}
+
+footer p {
+  width: max-content;
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+}
