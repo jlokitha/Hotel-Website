@@ -1,0 +1,22 @@
+section {
+    padding-top: 30px;
+}
+
+.package-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 10%;
+  /* border: 2px solid black; */
+}
+
+.card {
+    width: 95% !important;
+    margin: 10px !important;
+}
+
+.btn {
+    width: 100% !important;
+}

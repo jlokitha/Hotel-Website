@@ -17,6 +17,10 @@ section {
   padding: 100px 5%;
 }
 
+.section-title {
+  font-size: 3.5rem;
+}
+
 footer {
   background: white;
   color: black;

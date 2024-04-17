@@ -57,13 +57,21 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="/pages/page-room.html"
+                  target="_blank"
                   >Room</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="#"
+                  target="_blank"
                   >Offers</a
                 >
               </li>
@@ -79,19 +87,31 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="#"
+                  target="_blank"
                   >Location</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="#"
+                  target="_blank"
                   >Dinning</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5 me-3" aria-current="page" href="#"
+                <a
+                  class="nav-link fs-5 me-3"
+                  aria-current="page"
+                  href="#"
+                  target="_blank"
                   >Event</a
                 >
               </li>
@@ -144,30 +164,69 @@
         Shall we show you around ?
       </h1>
 
-      <div id="image-container">
-        <img src="/assets/image/photo-16.jpg" alt="" />
-
-        <img src="/assets/image/photo-38.jpg" alt="" />
-
-        <img src="/assets/image/photo-40.jpg" alt="" />
-
-        <img src="/assets/image/photo-19.jpg" alt="" />
-
-        <img src="/assets/image/photo-12.jpg" alt="" />
-
-        <img src="/assets/image/photo-41.jpg" alt="" />
-
-        <img src="/assets/image/photo-30.jpg" alt="" />
-
-        <img src="/assets/image/photo-53.jpg" alt="" />
-
-        <img src="/assets/image/photo-13.jpg" alt="" />
-
-        <img src="/assets/image/photo-50.jpg" alt="" />
-
-        <img src="/assets/image/photo-3.jpg" alt="" />
-
-        <img src="/assets/image/photo-26.jpg" alt="" />
+      <div id="image-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="/assets/image/photo-7.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="assets/image/photo-32.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="/assets/image/photo-15.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="/assets/image/photo-20.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="assets/image/photo-28.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="/assets/image/photo-41.jpg"
+              class="d-block w-100 c-img"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
       <a href="/pages/page-gallery.html" target="_blank">
