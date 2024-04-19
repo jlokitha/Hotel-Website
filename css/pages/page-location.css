@@ -1,0 +1,25 @@
+section {
+  padding-top: 30px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 50vh;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.location-detail-container {
+  padding: 0 20%;
+}
+
+.location-detail-container .detail-wrapper:first-child,
+.location-detail-container .detail-wrapper:nth-child(2) {
+  padding: 0 20px 40px 20px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+.card .card-text span{
+    color: rgb(82, 82, 250);
+}

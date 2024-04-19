@@ -3,8 +3,8 @@ footer {
 }
 
 .gallery {
-  display: flex;
-  justify-content: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .image-row {
