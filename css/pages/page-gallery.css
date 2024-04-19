@@ -1,6 +1,8 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  padding-top: 20px;
 }
 
 .image-row {
@@ -14,4 +16,16 @@
   border: 1px solid grey;
 
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1150px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

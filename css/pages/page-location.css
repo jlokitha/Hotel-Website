@@ -23,3 +23,9 @@ section {
 .card .card-text span{
     color: rgb(82, 82, 250);
 }
+
+@media screen and (max-width: 750px) {
+  .location-detail-container {
+    padding: 0 10%;
+  }
+}
