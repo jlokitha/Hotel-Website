@@ -15,7 +15,7 @@ header .nav-item:nth-child(3) {
 
 .gallery img {
   max-width: 100%;
-  margin: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   border: 1px solid grey;
 

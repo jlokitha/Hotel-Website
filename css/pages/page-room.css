@@ -63,4 +63,8 @@ section {
   .facilities-container {
     grid-template-columns: 1fr;
   }
+
+  .package-container {
+    padding: 20px 5%;
+  }
 }

@@ -67,6 +67,6 @@ section div:nth-child(2) p {
   }
 
   .section div:nth-child(2) {
-    margin-left: 0;
+    /* margin-left: 0; */
   }
 }

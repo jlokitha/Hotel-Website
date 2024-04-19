@@ -43,3 +43,9 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .offer-cards-container {
+    padding: 20px 5%;
+  }
+}
