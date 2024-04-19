@@ -1,3 +1,7 @@
+header .nav-item:last-child {
+  border-bottom: 3px solid grey;
+}
+
 section {
   padding-top: 0;
   padding-bottom: 0;

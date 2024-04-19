@@ -1,3 +1,7 @@
+header .nav-item:nth-child(2) {
+  border-bottom: 3px solid grey;
+}
+
 section {
   padding-top: 30px;
 }

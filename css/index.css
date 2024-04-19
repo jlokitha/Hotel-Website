@@ -1,3 +1,7 @@
+header .nav-item:first-child{
+  border-bottom: 3px solid grey;
+}
+
 .video-container {
   padding: 0;
 }

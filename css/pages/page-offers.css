@@ -1,0 +1,45 @@
+header .nav-item:nth-child(5) {
+  border-bottom: 3px solid grey;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.offer-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 10%;
+}
+
+.card {
+  width: 95% !important;
+  height: 95% !important;
+  margin: 10px !important;
+}
+
+.card .card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  width: 100% !important;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .offer-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .offer-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
