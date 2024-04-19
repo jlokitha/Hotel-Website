@@ -1,0 +1,72 @@
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section div {
+  width: 100%;
+  padding: 20px;
+}
+
+.form-detail-container {
+  display: flex;
+}
+
+.form-container h1 {
+  color: black;
+  font-size: 4rem;
+}
+
+.form-container span {
+  color: blue;
+  padding-left: 5px;
+  border-left: 75px solid blue;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(228, 226, 226);
+}
+
+.form-container .input-field {
+  padding: 0;
+  margin: 10px 0;
+}
+
+section div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+section div:nth-child(2) p {
+  line-height: 2rem;
+}
+
+.map-container {
+  padding: 0;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+footer {
+  background-color: rgb(207, 206, 206);
+}
+
+@media screen and (max-width: 1000px) {
+  .form-detail-container {
+    display: block !important;
+    font-size: 1rem !important;
+  }
+
+  .section div:nth-child(2) {
+    margin-left: 0;
+  }
+}
