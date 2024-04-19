@@ -56,10 +56,6 @@ section div:nth-child(2) p {
   height: 50vh;
 }
 
-footer {
-  background-color: rgb(207, 206, 206);
-}
-
 @media screen and (max-width: 1000px) {
   .form-detail-container {
     display: block !important;
