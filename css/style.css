@@ -1,7 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "poppin", sans-serif;
   font-weight: 100;
   font-style: normal;
+  min-width: 320px;
 }
 
 .nav-item {
@@ -18,7 +19,14 @@ section {
 }
 
 .section-title {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  text-align: center;
 }
 
 footer {
@@ -46,11 +54,11 @@ footer h1 {
   align-items: center;
 
   border-bottom: 1px solid white;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .logo-container i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 20px;
 }
 
@@ -61,8 +69,8 @@ footer img {
 
 footer p {
   width: 100%;
-  font-size: 1.1rem;
-  line-height: 1.9rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
 
 footer span {
@@ -71,6 +79,12 @@ footer span {
 
 @media screen and (max-width: 700px) {
   .section-title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-title {
+    font-size: 1.5rem;
   }
 }

@@ -18,13 +18,17 @@ section div {
 
 .form-container h1 {
   color: black;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .form-container span {
   color: blue;
   padding-left: 5px;
   border-left: 75px solid blue;
+}
+
+.form-container p {
+  font-size: 1rem;
 }
 
 .form {
@@ -36,6 +40,10 @@ section div {
 .form-container .input-field {
   padding: 0;
   margin: 10px 0;
+}
+
+.form-label {
+  font-size: 1rem;
 }
 
 section div:nth-child(2) {
@@ -60,13 +68,13 @@ section div:nth-child(2) p {
   height: 50vh;
 }
 
+.detail-container p {
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 1000px) {
   .form-detail-container {
     display: block !important;
     font-size: 1rem !important;
-  }
-
-  .section div:nth-child(2) {
-    /* margin-left: 0; */
   }
 }

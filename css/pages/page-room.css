@@ -25,7 +25,6 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  align-items: center;
 
   padding: 20px 10%;
 }
@@ -61,7 +60,7 @@ section {
 
 @media screen and (max-width: 520px) {
   .facilities-container {
-    grid-template-columns: 1fr;
+    display: none;
   }
 
   .package-container {
